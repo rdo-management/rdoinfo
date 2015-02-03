@@ -12,17 +12,21 @@ package-configs:
     name: openstack-%(project)s
     upstream: https://github.com/rdo-management/%(project)s
     master-distgit: https://github.com/rdo-management/%(project)s-packaging
+    source-branch: mgt-master
+    spec-branch: packaging
   client:
     name: python-%(project)s
     upstream: https://github.com/rdo-management/python-%(project)s
     master-distgit: https://github.com/rdo-management/python-%(project)s-packaging
+    source-branch: mgt-master
+    spec-branch: packaging
     maintainers:
     - jruzicka@redhat.com
   lib:
     name: python-%(project)s
     upstream: https://git.openstack.org/openstack/python-%(project)s
     master-distgit: https://github.com/openstack-packages/python-%(project)s.git
-    master-branch: master
+    source-branch: master
     spec-branch: f20-master
     maintainers:
     - apevec@redhat.com
@@ -71,10 +75,12 @@ packages:
   - jruzicka@redhat.com
 - project: instack
   conf: core
+  source-branch: master
   maintainers:
   - jslagle@redhat.com
 - project: instack-undercloud
   conf: core
+  source-branch: master
   maintainers:
   - jslagle@redhat.com
 # The openstack clients
@@ -122,7 +128,7 @@ packages:
 # deps
 - project: netifaces
   conf: lib
-  master-branch: master
+  source-branch: master
   spec-branch: f20-master
   upstream: hg::https://bitbucket.org/al45tair/netifaces
   master-distgit: https://github.com/openstack-packages/python-netifaces.git
