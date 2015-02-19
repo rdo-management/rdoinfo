@@ -53,6 +53,10 @@ packages:
   conf: core
   maintainers:
   - athomas@redhat.com
+- project: ironic-discoverd
+  conf: core
+  maintainers:
+  - dtantsur@redhat.com
 - project: tripleo
   conf: core
   maintainers:
