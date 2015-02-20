@@ -139,6 +139,9 @@ packages:
 - project: oslo-config
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.config
+- project: oslo-log
+  conf: lib
+  upstream: https://git.openstack.org/openstack/oslo.log
 # deps
 - project: netifaces
   conf: lib
