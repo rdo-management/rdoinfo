@@ -94,7 +94,7 @@ packages:
   source-branch: master
   spec-branch: f20-master
   upstream: https://git.openstack.org/openstack/%(project)s
-  master-distgit: https://github.com/openstack-packages/%(project)s.git
+  master-distgit: https://github.com/trown/%(project)s.git
   maintainers:
   - mrunge@redhat.com
 # The openstack clients
