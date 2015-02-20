@@ -3,7 +3,7 @@ releases:
 - name: notused
   branch: notused
   repos:
-    - name: notused 
+    - name: notused
       buildsys: notused
 # these are basically templates for 'packages' information bellow, reducing
 # redundant information in this file
@@ -142,12 +142,6 @@ packages:
 - project: oslo-log
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.log
-- project: oslo-serialization
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.serialization
-- project: oslo-concurrency
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.concurrency
 - project: oslo-rootwrap
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.rootwrap
