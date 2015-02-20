@@ -142,6 +142,21 @@ packages:
 - project: oslo-log
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.log
+- project: oslo-serialization
+  conf: lib
+  upstream: https://git.openstack.org/openstack/oslo.serialization
+- project: oslo-concurrency
+  conf: lib
+  upstream: https://git.openstack.org/openstack/oslo.concurrency
+- project: oslo-rootwrap
+  conf: lib
+  upstream: https://git.openstack.org/openstack/oslo.rootwrap
+- project: oslo-vmware
+  conf: lib
+  upstream: https://git.openstack.org/openstack/oslo.vmware
+- project: stevedore
+  conf: lib
+  upstream: https://git.openstack.org/openstack/stevedore
 # deps
 - project: netifaces
   conf: lib
