@@ -87,16 +87,6 @@ packages:
   source-branch: master
   maintainers:
   - jslagle@redhat.com
-# We need horizon as tuskar-ui dependency
-# building from upstream for now
-- project: horizon
-  conf: core
-  source-branch: master
-  spec-branch: f20-master
-  upstream: https://git.openstack.org/openstack/%(project)s
-  master-distgit: https://github.com/trown/%(project)s.git
-  maintainers:
-  - mrunge@redhat.com
 # The openstack clients
 - project: novaclient
   conf: client
