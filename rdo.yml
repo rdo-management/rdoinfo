@@ -88,6 +88,7 @@ packages:
   maintainers:
   - jslagle@redhat.com
 - project: diskimage-builder
+  name: diskimage-builder
   conf: core
   maintainers:
   - jslagle@redhat.com
