@@ -87,6 +87,10 @@ packages:
   source-branch: master
   maintainers:
   - jslagle@redhat.com
+- project: diskimage-builder
+  conf: core
+  maintainers:
+  - jslagle@redhat.com
 # The openstack clients
 - project: novaclient
   conf: client
