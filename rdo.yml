@@ -159,3 +159,19 @@ packages:
   master-distgit: https://github.com/openstack-packages/python-netifaces.git
   maintainers:
   - apevec@redhat.com
+- project: hardware
+  name: python-hardware
+  source-branch: master
+  spec-branch: packaging
+  upstream: https://github.com/enovance/hardware.git
+  master-distgit: https://github.com/rdo-management/python-hardware-packaging.git
+  maintainers:
+  - dtantsur@redhat.com
+- project: pexpect
+  name: python-pexpect
+  source-branch: master
+  spec-branch: packaging
+  upstream: https://github.com/pexpect/pexpect.git
+  master-distgit: https://github.com/rdo-management/python-pexpect-packaging.git
+  maintainers:
+  - dtantsur@redhat.com
