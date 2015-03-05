@@ -163,7 +163,7 @@ packages:
   name: python-hardware
   source-branch: master
   spec-branch: packaging
-  upstream: https://github.com/enovance/hardware.git
+  upstream: https://github.com/rdo-management/hardware.git
   master-distgit: https://github.com/rdo-management/python-hardware-packaging.git
   maintainers:
   - dtantsur@redhat.com
