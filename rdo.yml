@@ -49,6 +49,10 @@ packages:
   - zbitter@redhat.com
   - jpeeler@redhat.com
   - ryansb@redhat.com
+- project: heat-templates
+  conf: core
+  maintainers:
+  - ryansb@redhat.com
 - project: ironic
   conf: core
   maintainers:
