@@ -73,6 +73,10 @@ packages:
   conf: core
   maintainers:
   - jruzicka@redhat.com
+- project: tuskar-ui-extras
+  conf: core
+  maintainers:
+  - jtomasek@redhat.com
 - project: instack
   conf: core
   source-branch: master
