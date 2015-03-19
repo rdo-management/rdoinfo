@@ -111,6 +111,11 @@ packages:
   conf: client
 - project: ironicclient
   conf: client
+- project: rdomanager-oscplugin
+  conf: client
+  source-branch: master
+  maintainers:
+  - brad@redhat.com
 # openstack libraries
 - project: oslo-sphinx
   conf: lib
