@@ -13,23 +13,15 @@ package-configs:
     upstream: https://github.com/rdo-management/%(project)s
     master-distgit: https://github.com/rdo-management/%(project)s-packaging
     source-branch: mgt-master
-    spec-branch: packaging
+    distro-branch: packaging
   client:
     name: python-%(project)s
     upstream: https://github.com/rdo-management/python-%(project)s
     master-distgit: https://github.com/rdo-management/python-%(project)s-packaging
     source-branch: mgt-master
-    spec-branch: packaging
+    distro-branch: packaging
     maintainers:
     - jruzicka@redhat.com
-  lib:
-    name: python-%(project)s
-    upstream: https://git.openstack.org/openstack/python-%(project)s
-    master-distgit: https://github.com/openstack-packages/python-%(project)s.git
-    source-branch: master
-    spec-branch: f20-master
-    maintainers:
-    - apevec@redhat.com
 
 packages:
 # core openstack projects
@@ -116,65 +108,12 @@ packages:
   source-branch: master
   maintainers:
   - brad@redhat.com
-# openstack libraries
-- project: oslo-sphinx
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslosphinx
-- project: oslo-context
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.context
-- project: oslo-middleware
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.middleware
-- project: oslo-concurrency
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.concurrency
-- project: oslo-serialization
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.serialization
-- project: oslo-messaging
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.messaging
-- project: oslo-i18n
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.i18n
-- project: oslo-db
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.db
-- project: oslo-utils
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.utils
-- project: oslo-config
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.config
-- project: oslo-log
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.log
-- project: oslo-rootwrap
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.rootwrap
-- project: oslo-vmware
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.vmware
-- project: oslo-policy
-  conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.policy
-- project: stevedore
-  conf: lib
-  upstream: https://git.openstack.org/openstack/stevedore
-# deps
-- project: netifaces
-  conf: lib
-  source-branch: master
-  spec-branch: f20-master
-  upstream: hg::https://bitbucket.org/al45tair/netifaces
-  master-distgit: https://github.com/openstack-packages/python-netifaces.git
-  maintainers:
-  - apevec@redhat.com
+
+#deps
 - project: hardware
   name: python-hardware
   source-branch: master
-  spec-branch: packaging
+  distro-branch: packaging
   upstream: https://github.com/rdo-management/hardware.git
   master-distgit: https://github.com/rdo-management/python-hardware-packaging.git
   maintainers:
@@ -182,7 +121,7 @@ packages:
 - project: pexpect
   name: python-pexpect
   source-branch: master
-  spec-branch: packaging
+  distro-branch: packaging
   upstream: https://github.com/pexpect/pexpect.git
   master-distgit: https://github.com/rdo-management/python-pexpect-packaging.git
   maintainers:
