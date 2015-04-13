@@ -122,6 +122,14 @@ packages:
   master-distgit: https://github.com/rdo-management/python-hardware-packaging.git
   maintainers:
   - dtantsur@redhat.com
+- project: rdo-ramdisk-tools
+  name: rdo-ramdisk-tools
+  source-branch: master
+  distro-branch: packaging
+  upstream: https://github.com/rdo-management/rdo-ramdisk-tools
+  master-distgit: https://github.com/rdo-management/rdo-ramdisk-tools-packaging
+  maintainers:
+  - dtantsur@redhat.com
 - project: pexpect
   name: python-pexpect
   source-branch: master
