@@ -138,3 +138,11 @@ packages:
   master-distgit: https://github.com/rdo-management/python-pexpect-packaging.git
   maintainers:
   - dtantsur@redhat.com
+- project: tripleo-common
+  name: tripleo-common
+  source-branch: master
+  distro-branch: packaging
+  upstream: https://github.com/rdo-management/tripleo-common
+  master-distgit: https://github.com/rdo-management/tripleo-common-packaging
+  maintainers:
+  - jprovazn@redhat.com
