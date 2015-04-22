@@ -92,10 +92,6 @@ packages:
   conf: core
   maintainers:
   - jslagle@redhat.com
-- project: neutron
-  conf: core
-  maintainers:
-  - jslagle@redhat.com
 # The openstack clients
 - project: novaclient
   conf: client
