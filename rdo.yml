@@ -112,6 +112,12 @@ packages:
   source-branch: master
   maintainers:
   - brad@redhat.com
+- project: ahc-tools
+  name: ahc-tools
+  conf: core
+  source-branch: master
+  maintainers:
+  - trown@redhat.com
 
 #deps
 - project: hardware
@@ -120,14 +126,6 @@ packages:
   distro-branch: packaging
   upstream: https://github.com/rdo-management/hardware.git
   master-distgit: https://github.com/rdo-management/python-hardware-packaging.git
-  maintainers:
-  - dtantsur@redhat.com
-- project: rdo-ramdisk-tools
-  name: rdo-ramdisk-tools
-  source-branch: master
-  distro-branch: packaging
-  upstream: https://github.com/rdo-management/rdo-ramdisk-tools
-  master-distgit: https://github.com/rdo-management/rdo-ramdisk-tools-packaging
   maintainers:
   - dtantsur@redhat.com
 - project: pexpect
