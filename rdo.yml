@@ -119,15 +119,15 @@ packages:
 - project: hardware
   name: python-hardware
   source-branch: master
-  upstream: https://github.com/rdo-management/hardware.git
-  master-distgit: https://github.com/rdo-management/python-hardware-packaging.git
+  upstream: https://github.com/rdo-management/hardware
+  master-distgit: https://github.com/rdo-management/python-hardware-packaging
   maintainers:
   - dtantsur@redhat.com
 - project: pexpect
   name: python-pexpect
   source-branch: master
-  upstream: https://github.com/pexpect/pexpect.git
-  master-distgit: https://github.com/rdo-management/python-pexpect-packaging.git
+  upstream: https://github.com/pexpect/pexpect
+  master-distgit: https://github.com/rdo-management/python-pexpect-packaging
   maintainers:
   - dtantsur@redhat.com
 - project: tripleo-common
