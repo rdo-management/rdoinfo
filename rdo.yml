@@ -12,14 +12,10 @@ package-configs:
     name: openstack-%(project)s
     upstream: https://github.com/rdo-management/%(project)s
     master-distgit: https://github.com/rdo-management/%(project)s-packaging
-    source-branch: mgt-master
-    distro-branch: packaging
   client:
     name: python-%(project)s
     upstream: https://github.com/rdo-management/python-%(project)s
     master-distgit: https://github.com/rdo-management/python-%(project)s-packaging
-    source-branch: mgt-master
-    distro-branch: packaging
     maintainers:
     - jruzicka@redhat.com
 
@@ -123,7 +119,6 @@ packages:
 - project: hardware
   name: python-hardware
   source-branch: master
-  distro-branch: packaging
   upstream: https://github.com/rdo-management/hardware.git
   master-distgit: https://github.com/rdo-management/python-hardware-packaging.git
   maintainers:
@@ -131,7 +126,6 @@ packages:
 - project: pexpect
   name: python-pexpect
   source-branch: master
-  distro-branch: packaging
   upstream: https://github.com/pexpect/pexpect.git
   master-distgit: https://github.com/rdo-management/python-pexpect-packaging.git
   maintainers:
@@ -139,7 +133,6 @@ packages:
 - project: tripleo-common
   name: tripleo-common
   source-branch: master
-  distro-branch: packaging
   upstream: https://github.com/rdo-management/tripleo-common
   master-distgit: https://github.com/rdo-management/tripleo-common-packaging
   maintainers:
