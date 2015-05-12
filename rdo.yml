@@ -39,6 +39,7 @@ packages:
   - ryansb@redhat.com
 - project: heat-templates
   conf: core
+  source-branch: mgt-master
   maintainers:
   - ryansb@redhat.com
 - project: ironic
@@ -51,14 +52,17 @@ packages:
   - dtantsur@redhat.com
 - project: tripleo
   conf: core
+  source-branch: mgt-master
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-heat-templates
   conf: core
+  source-branch: mgt-master
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-image-elements
   conf: core
+  source-branch: mgt-master
   maintainers:
   - jruzicka@redhat.com
 - project: tuskar
@@ -86,10 +90,12 @@ packages:
 - project: diskimage-builder
   name: diskimage-builder
   conf: core
+  source-branch: mgt-master
   maintainers:
   - jslagle@redhat.com
 - project: tripleo-puppet-elements
   conf: core
+  source-branch: mgt-master
   maintainers:
   - sross@redhat.com
 # The openstack clients
