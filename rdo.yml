@@ -53,16 +53,19 @@ packages:
 - project: tripleo
   conf: core
   source-branch: mgt-master
+  distro-branch: packaging
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-heat-templates
   conf: core
   source-branch: mgt-master
+  distro-branch: packaging
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-image-elements
   conf: core
   source-branch: mgt-master
+  distro-branch: packaging
   maintainers:
   - jruzicka@redhat.com
 - project: tuskar
@@ -80,22 +83,26 @@ packages:
 - project: instack
   conf: core
   source-branch: master
+  distro-branch: packaging
   maintainers:
   - jslagle@redhat.com
 - project: instack-undercloud
   conf: core
   source-branch: master
+  distro-branch: packaging
   maintainers:
   - jslagle@redhat.com
 - project: diskimage-builder
   name: diskimage-builder
   conf: core
   source-branch: mgt-master
+  distro-branch: packaging
   maintainers:
   - jslagle@redhat.com
 - project: tripleo-puppet-elements
   conf: core
   source-branch: mgt-master
+  distro-branch: packaging
   maintainers:
   - sross@redhat.com
 # The openstack clients
@@ -112,12 +119,14 @@ packages:
 - project: rdomanager-oscplugin
   conf: client
   source-branch: master
+  distro-branch: packaging
   maintainers:
   - brad@redhat.com
 - project: ahc-tools
   name: ahc-tools
   conf: core
   source-branch: master
+  distro-branch: packaging
   maintainers:
   - trown@redhat.com
 
@@ -125,6 +134,7 @@ packages:
 - project: hardware
   name: python-hardware
   source-branch: master
+  distro-branch: packaging
   upstream: https://github.com/rdo-management/hardware
   master-distgit: https://github.com/rdo-management/python-hardware-packaging
   maintainers:
@@ -132,6 +142,7 @@ packages:
 - project: tripleo-common
   name: tripleo-common
   source-branch: master
+  distro-branch: packaging
   upstream: https://github.com/rdo-management/tripleo-common
   master-distgit: https://github.com/rdo-management/tripleo-common-packaging
   maintainers:
