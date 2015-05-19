@@ -147,13 +147,3 @@ packages:
   master-distgit: https://github.com/rdo-management/tripleo-common-packaging
   maintainers:
   - jprovazn@redhat.com
-
-#temporary builds due to main delorean being down
-- project: oslo-utils
-  upstream: git://git.openstack.org/openstack/oslo.utils
-  name: python-%(project)s
-  master-distgit: git://github.com/openstack-packages/python-%(project)s
-  source-branch: stable/kilo
-  distro-branch: rpm-master
-  maintainers:
-  - apevec@redhat.com
