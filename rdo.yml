@@ -129,6 +129,14 @@ packages:
   distro-branch: packaging
   maintainers:
   - trown@redhat.com
+- project: ironic-python-agent
+  conf: core
+  upstream: https://github.com/openstack/ironic-python-agent
+  source-branch: master
+  distro-branch: packaging
+  maintainers:
+  - trown@redhat.com
+
 
 #deps
 - project: hardware
