@@ -155,3 +155,11 @@ packages:
   master-distgit: https://github.com/rdo-management/tripleo-common-packaging
   maintainers:
   - jprovazn@redhat.com
+- project: proliantutils
+  name: python-proliantutils
+  source-branch: master
+  distro-branch: packaging
+  upstream: https://github.com/stackforge/proliantutils
+  master-distgit: https://github.com/rdo-management/proliantutils-packaging
+  maintainers:
+  - trown@redhat.com
