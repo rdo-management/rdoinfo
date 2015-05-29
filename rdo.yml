@@ -137,6 +137,17 @@ packages:
   maintainers:
   - trown@redhat.com
 
+# temporary addition to carry a backport
+- project: openstackclient
+  name: python-openstackclient
+  upstream: https://github.com/rdo-management/python-openstackclient
+  master-distgit: https://github.com/openstack-packages/python-openstackclient
+  distro-branch: rpm-kilo
+  source-branch: mgt-kilo
+  maintainers:
+  - trown@redhat.com
+
+
 
 #deps
 - project: hardware
