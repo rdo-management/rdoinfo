@@ -70,6 +70,8 @@ packages:
   - jruzicka@redhat.com
 - project: tuskar
   conf: core
+  source-branch: mgt-master
+  distro-branch: packaging
   maintainers:
   - jruzicka@redhat.com
 - project: tuskar-ui
