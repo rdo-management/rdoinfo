@@ -72,7 +72,8 @@ packages:
   - jruzicka@redhat.com
 - project: tuskar
   conf: core
-  source-branch: mgt-master
+  upstream: https://github.com/openstack/%(project)s
+  source-branch: master
   distro-branch: packaging
   maintainers:
   - jruzicka@redhat.com
